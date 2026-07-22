@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class Votesfc {
+public class voterapp{
     public static void main(String[] args) {
         String name ="", pan ="", aadhaar ="",mobile ="", email ="";
         boolean isValid = true;
