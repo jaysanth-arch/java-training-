@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class debitcounts {
+    public static void main(String[] args) {
+        int balance = 0,prev = Integer.MIN_VALUE,debit=0;
+        Scanner scanner = new Scanner(System.in);
+        for(int time = 51;time<=70;time+=2){
+            System.out.println("current balance");
+            balance= scanner.nextInt();
+            if(prev>balance)debit++;
+            prev = balance;
+        }
+        debit-=3;
+        balance= (debit>0)?balance-=(debit*25):balance;
+        System.out.println(balance);
+        scanner.close();
+
+
+    }
+}
