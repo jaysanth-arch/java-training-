@@ -1,3 +1,4 @@
+package day5;
 import java.util.Arrays;
 
 public class Passing {

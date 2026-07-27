@@ -1,3 +1,4 @@
+package day5;
 public class sumviaRecursion {
     public static double findsum (double[] arr, int index){
         if(index==0) return arr[index];

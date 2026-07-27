@@ -1,3 +1,4 @@
+package day5;
 public class PerfectNumber {
     public static boolean checkPerfectNumber(int number){
         if(number<=1) return false;
