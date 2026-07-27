@@ -2,7 +2,7 @@ package day4;
 
 import java.util.Scanner;
 
-public class demoTimeGlass {
+public class demohourGlass {
     public static void main(String[] args) {
        Scanner scan=new Scanner(System.in);
        System.out.println("leyt us name in odd lenght");
